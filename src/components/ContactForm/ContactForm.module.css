@@ -1,0 +1,49 @@
+.form {
+    width: 400px;
+    box-shadow: 2px 2px 4px blue;
+    border: 1px solid;
+    border-radius: 6px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-weight: 500;
+    margin: 0 auto;
+& label {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+& button {
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    background-color:rgb(63, 11, 204);
+    padding: 12px 16px;
+    margin: 0 auto;
+    &:hover {
+        background-color: rgb(40, 6, 150);
+    cursor: pointer;
+}
+}
+}
+.input {
+    color: black;
+    padding: 12px 18px;
+    background-color: transparent;
+    border: 1px solid blue;
+    border-radius: 4px;
+    font-size: 20px;
+    box-shadow: 2px 2px 4px blue;
+    outline: 0;
+    &:focus{
+        background-color: rgb(43, 210, 210);
+    }
+}
+.errMsg {
+    color: red;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,31 @@
+.contactItem {
+    display: flex;
+    justify-content: space-between;
+    min-width: 260px;
+    border: 1px solid;
+    border-radius: 6px;
+    box-shadow: 2px 2px 4px blue;
+    padding: 8px;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 500;
+    & svg {
+        width: 16px;
+        margin-right: 6px;
+    }
+    & p {
+        margin: 8px;
+    }
+    & button {
+        margin: auto 0;
+        font-size: 14px;
+        padding: 10px;
+        border: none;
+        border-radius: 6px;
+        background-color: rgb(35, 35, 160);
+        &:hover {
+            cursor: pointer;
+            background-color: blue;
+        }
+    }
+}
